@@ -84,3 +84,32 @@ div .body p{
     justify-content: space-between;
     color: #669BBC;
 }
+footer{
+    background-color: #000000;
+}
+span{
+    color: white;
+    margin: 20px;
+}
+.div-footer{
+    display: grid;
+    justify-content: space-between;
+}
+div .second{
+    width: 150%;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between
+}
+.second li{
+    font-size: 20px;
+}
+div .second li:hover{
+    color: aqua;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
