@@ -113,3 +113,116 @@ div .second li:hover{
     justify-content: center;
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        margin: 0;
+        background-color: #003049;
+        }
+    header{
+        width: 100%;
+        background-color: #000000;
+        display: grid;
+        justify-content: center;
+    }
+    nav{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .Logo{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+    }
+    .list{
+        margin: auto;
+        list-style: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        margin: 20px;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    li:hover{
+        color: red;
+    }
+    input{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+        height: 30px;
+        cursor:pointer ;
+    }
+    .characteristics{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+    }
+    div{
+        display: grid;
+        justify-content: center;
+    }
+    .body{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+     
+    
+    }
+    div.body:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba (0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+    div .body h3{
+        display: grid;
+        font-weight: 600;
+        justify-content: center;
+        color: #C1121F;
+    }
+    div .body p{
+        width: 300px;
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 600;
+        display: grid;
+        justify-content: center;
+        color: #669BBC;
+    }
+    footer{
+        background-color: #000000;
+        display: grid;
+        justify-content: center;
+    }
+    span{
+        color: white;
+        margin: 20px;
+    }
+    .div-footer{
+        display: grid;
+        justify-content: center;
+    }
+    div .second{
+        width: auto;
+        list-style: none;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second li{
+        font-size: 20px;
+    }
+    .second{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+ }
