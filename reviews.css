@@ -131,3 +131,92 @@ body{
         justify-content: space-between;
         align-content: center;
     }
+@media only screen and (max-width: 600px){
+    .game{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logo{
+        width: 80px;
+        height: 80px;
+        border-radius: 40%;
+        overflow: hidden;
+    }
+    nav{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    } 
+    .div-body-list{
+        overflow: hidden;
+    }  
+    .list{
+        padding-left: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        margin: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        list-style: none;
+        color: white;
+        overflow: hidden;
+
+    }
+    input{
+        width: 100%;
+        height: 30px;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .div-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .desig-page-body{
+        display: flex;
+       flex-direction: column;
+    }
+   .container-img-text{
+           display: flex;
+           flex-direction: column;
+    }
+       footer{
+        width: 100%;
+        height: 450px
+    }
+    span{
+        color: white;
+        margin: 20px;
+        overflow: hidden;
+    }
+    .div-footer{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .div-footer-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    .second{
+        width: auto;
+        list-style: none;
+        display: flex;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .second li{
+        font-size: 20px;
+    }
+    .second a{
+        color: rgb(75, 139, 243);
+    }
+    }
