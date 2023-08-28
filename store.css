@@ -1,7 +1,7 @@
 body{
-    margin: 0;
-    background-color: #003049;
-    }
+    margin: 0%;
+    background-color:#003049;
+}
 header{
     background-color: #000000;
     display: flex;
@@ -53,42 +53,69 @@ input{
     justify-content: left;
     width: 20%;
 }
-    
-.characteristics{
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-styles{
     width: 100%;
     height: 300px;
     margin: 20px;
 }
-.half{
-    display: flex;
-}
-.body{
-    padding: 20px;
+.container-img-text{
     width: 100%;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
-div.body:hover{
-    transform: translateY(-15px);
+.container-img-text:hover{
     cursor: pointer;
+    transform: translateY(-15px);
 }
-div.body h3{
-    width: 50%;
-    margin: 20px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    color: #C1121F;
+h3{
+    font-size: 30px;
+    color: white ;
+    background-color: black;
+    margin: 5px;
 }
-div.body p{
-    width: 50%;
-    margin: 20px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+h4{
+    font-size: 20px;
     color: #669BBC;
+    margin: 5px;
+}
+.text-size{
+    font-size: 30px;
+    color: red;
+    margin: 5px;
+}
+del{
+    font-size: 20px;
+    color: black;
+    background-color: #eff6e0;
+}
+.p-price{
+   font-size: 20px; 
+   color: #C1121F;
+   background-color: greenyellow;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #0A1128;
+    border-radius: 16px;
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-15px);
 }
 footer{
     background-color: #000000;
@@ -119,7 +146,7 @@ span{
     justify-content: space-between;
     align-content: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
     body{
         margin: 0;
         background-color: #003049;
@@ -172,43 +199,14 @@ span{
         width: 100%;
         margin-bottom: 5px;
     }
-    .characteristics{
-        width: 100%;
-        height: 200px;
-        margin: auto;
-        overflow: hidden;
-    }
-    .half{
-        display: flex;
-        flex-direction: column;
-    }
     .body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+    }
+    .container-img-text{
         padding: 0%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    div.body:hover{
-        transform: translateY(-15px);
-        cursor: pointer;
-    }
-    div .body h3{
-        margin: 20px;
-        font-weight: 600;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        color: #C1121F;
-        overflow: hidden;
-    }
-    div .body p{
-        margin: 20px;
-        font-size: 16px;
-        font-weight: 600;
-        display: flex;
-        flex-direction: column;
-        color: #669BBC;
-        overflow: hidden;
     }
     footer{
         width: 100%;
@@ -240,4 +238,8 @@ span{
     .second a{
         color: rgb(75, 139, 243);
     }
-     }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+}
