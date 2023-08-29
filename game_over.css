@@ -1,243 +1,284 @@
 body {
+  margin: 0;
+  background-color: #003049;
+}
+
+header {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 40%;
+  margin: 10px;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0%;
+}
+
+.div-body-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  padding-left: 0%;
+  width: 50%;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+li {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+li:hover {
+  color: red;
+}
+
+input {
+  width: 95%;
+  height: 30px;
+  cursor: pointer;
+}
+
+.div-input {
+  display: flex;
+  justify-content: left;
+  width: 20%;
+}
+
+.characteristics {
+  width: 100%;
+  height: 300px;
+  margin: 20px;
+}
+
+.half {
+  display: flex;
+}
+
+.body {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+div.body:hover {
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+
+div.body h3 {
+  width: 50%;
+  margin: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  color: #c1121f;
+}
+
+div.body p {
+  width: 50%;
+  margin: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #669bbc;
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+}
+
+span {
+  color: white;
+  margin: 20px;
+}
+
+.div-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.second li {
+  font-size: 20px;
+}
+
+.div-footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second {
+  padding-left: 0%;
+  width: 50%;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
     margin: 0;
     background-color: #003049;
   }
-  header {
-    background-color: #000000;
+
+  .game {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
   }
+
   .Logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 40%;
-    margin: 10px;
-    display: flex;
+    overflow: hidden;
   }
+
   nav {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     align-items: center;
-    margin: 0%;
   }
+
   .div-body-list {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+    overflow: hidden;
   }
+
   .list {
     padding-left: 0%;
-    width: 50%;
-    list-style: none;
-    color: white;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-content: center;
   }
+
   li {
+    margin: 10px;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    overflow: hidden;
   }
-  li:hover {
-    color: red;
-  }
+
   input {
-    width: 95%;
+    width: 100%;
     height: 30px;
     cursor: pointer;
+    overflow: hidden;
   }
+
   .div-input {
     display: flex;
-    justify-content: left;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
   }
-  
+
   .characteristics {
     width: 100%;
-    height: 300px;
-    margin: 20px;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
   }
+
   .half {
     display: flex;
+    flex-direction: column;
   }
+
   .body {
-    padding: 20px;
-    width: 100%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
+
   div.body:hover {
     transform: translateY(-15px);
     cursor: pointer;
   }
-  div.body h3 {
-    width: 50%;
+
+  div .body h3 {
     margin: 20px;
     font-weight: 600;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
     color: #c1121f;
+    overflow: hidden;
   }
-  div.body p {
-    width: 50%;
+
+  div .body p {
     margin: 20px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     color: #669bbc;
+    overflow: hidden;
   }
+
   footer {
-    background-color: #000000;
     width: 100%;
-    height: 100%;
+    height: 450px;
   }
+
   span {
     color: white;
     margin: 20px;
+    overflow: hidden;
   }
+
   .div-footer {
     display: flex;
     flex-direction: column;
   }
-  .second li {
-    font-size: 20px;
-  }
+
   .div-footer-list {
     display: flex;
     justify-content: space-around;
   }
+
   .second {
-    padding-left: 0%;
-    width: 50%;
+    width: auto;
     list-style: none;
-    color: white;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    padding: 20px;
+    overflow: hidden;
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      margin: 0;
-      background-color: #003049;
-    }
-    .game {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .Logo {
-      width: 80px;
-      height: 80px;
-      border-radius: 40%;
-      overflow: hidden;
-    }
-    nav {
-      width: 100%;
-      display: grid;
-      justify-content: center;
-      align-items: center;
-    }
-    .div-body-list {
-      overflow: hidden;
-    }
-    .list {
-      padding-left: 0%;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-    }
-    li {
-      margin: 10px;
-      cursor: pointer;
-      font-size: 20px;
-      list-style: none;
-      color: white;
-      overflow: hidden;
-    }
-    input {
-      width: 100%;
-      height: 30px;
-      cursor: pointer;
-      overflow: hidden;
-    }
-    .div-input {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin-bottom: 5px;
-    }
-    .characteristics {
-      width: 100%;
-      height: 200px;
-      margin: auto;
-      overflow: hidden;
-    }
-    .half {
-      display: flex;
-      flex-direction: column;
-    }
-    .body {
-      padding: 0%;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-    div.body:hover {
-      transform: translateY(-15px);
-      cursor: pointer;
-    }
-    div .body h3 {
-      margin: 20px;
-      font-weight: 600;
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      color: #c1121f;
-      overflow: hidden;
-    }
-    div .body p {
-      margin: 20px;
-      font-size: 16px;
-      font-weight: 600;
-      display: flex;
-      flex-direction: column;
-      color: #669bbc;
-      overflow: hidden;
-    }
-    footer {
-      width: 100%;
-      height: 450px;
-    }
-    span {
-      color: white;
-      margin: 20px;
-      overflow: hidden;
-    }
-    .div-footer {
-      display: flex;
-      flex-direction: column;
-    }
-    .div-footer-list {
-      display: flex;
-      justify-content: space-around;
-    }
-    .second {
-      width: auto;
-      list-style: none;
-      display: flex;
-      padding: 20px;
-      overflow: hidden;
-    }
-    .second li {
-      font-size: 20px;
-    }
-    .second a {
-      color: rgb(75, 139, 243);
-    }
+
+  .second li {
+    font-size: 20px;
   }
-  
+
+  .second a {
+    color: rgb(75, 139, 243);
+  }
+}
