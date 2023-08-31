@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    background-color: #003049;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+}
+
+.div-body-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    padding-left: 0%;
+    width: 50%;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+li {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+li:hover {
+    color: red;
+}
+
+input {
+    width: 95%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.div-input {
+    display: flex;
+    justify-content: left;
+    width: 20%;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container {
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+    border: 5px solid;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 0%;
+}
+
+.img-login {
+    width: 300px;
+    height: 300px;
+}
+
+.login-info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-login {
+    color: rgb(1, 179, 255);
+    margin: 10px;
+}
+
+.text-login:hover {
+    color: red;
+}
+
+.login-input {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login-button {
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(24, 118, 199);
+}
+
+.login-button:hover {
+    color: red;
+}
+
+footer {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    color: white;
+    margin: 20px;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.second li {
+    font-size: 20px;
+}
+
+.div-footer-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second {
+    padding-left: 0%;
+    width: 50%;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .game {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 40%;
+        overflow: hidden;
+    }
+
+    nav {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-body-list {
+        overflow: hidden;
+    }
+
+    .list {
+        padding-left: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        margin: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        list-style: none;
+        color: white;
+        overflow: hidden;
+    }
+
+    input {
+        width: 100%;
+        height: 30px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .div-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .img-login {
+        display: none;
+    }
+
+    .login-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
+
+    h1 {
+        color: deepskyblue;
+    }
+
+    footer {
+        width: 100%;
+        height: 450px;
+    }
+
+    span {
+        color: white;
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    .div-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-footer-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .second {
+        width: auto;
+        list-style: none;
+        display: flex;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    .second li {
+        font-size: 20px;
+    }
+
+    .second a {
+        color: rgb(75, 139, 243);
+    }
+}
