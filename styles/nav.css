@@ -51,6 +51,15 @@ li:hover {
     color: red;
 }
 
+.optionNav{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.optionNav:hover {
+    color: red;
+}
+
 input {
     width: 95%;
     height: 30px;
