@@ -141,11 +141,6 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    margin: 0;
-    background-color: #003049;
-  }
-
   .game {
     display: flex;
     justify-content: center;
